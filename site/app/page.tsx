@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <main>
-      <div>Next.js on GitHub Pages</div>
-    </main>
-  );
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+  )
 }
