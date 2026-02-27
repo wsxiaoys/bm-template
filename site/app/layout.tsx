@@ -6,8 +6,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Next.js on GitHub Pages',
-  description: 'Deploy your static Next.js site to GitHub Pages.',
+  title: 'SuperSDK Agent Benchmark',
+  description: 'Performance results of AI coding agents on SuperSDK integration and usage tasks.',
 };
 
 export default function RootLayout({
