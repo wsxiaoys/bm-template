@@ -82,12 +82,12 @@ export default function Home() {
             <span className="text-xs font-medium px-2">Live Benchmarks</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-foreground to-foreground/50">
-            AI Agent Evaluations
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-foreground to-foreground/50 pb-2">
+            SuperSDK Agent Benchmark
           </h1>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Performance results of AI coding agents on Next.js code generation and migration tasks, 
+            Performance results of AI coding agents on SuperSDK integration and usage tasks, 
             measuring success rate and execution time with high precision.
           </p>
 
@@ -147,7 +147,7 @@ export default function Home() {
                     <div className="flex items-center gap-1 cursor-help group relative w-fit">
                       Success with Docs
                       <div className="absolute left-0 bottom-full mb-2 hidden group-hover:block w-48 p-2 bg-popover text-popover-foreground text-xs rounded shadow-lg border border-border z-10">
-                        Pass rate when agents had access to bundled Next.js documentation.
+                        Pass rate when agents had access to bundled SuperSDK documentation.
                       </div>
                     </div>
                   </th>
@@ -198,7 +198,7 @@ export default function Home() {
           
           {/* Table Footer */}
           <div className="px-6 py-4 border-t border-border bg-secondary/20 text-xs text-muted-foreground flex justify-between items-center">
-            <p>* AGENTS.md provides bundled Next.js documentation for AI coding agents.</p>
+            <p>* AGENTS.md provides bundled SuperSDK documentation for AI coding agents.</p>
             <button className="flex items-center gap-1 hover:text-foreground transition-colors">
               Full Methodology <ArrowUpRight className="w-3 h-3" />
             </button>
